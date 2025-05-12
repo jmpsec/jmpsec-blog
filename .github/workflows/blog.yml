@@ -57,11 +57,11 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --source "./blog" \
-            --destination "./blog/public"
+            --destination "./public"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./blog/public
+          path: ./public
 
   # Deployment job
   deploy:
