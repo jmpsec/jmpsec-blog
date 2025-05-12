@@ -56,16 +56,11 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --source "./blog" \
-            --destination "./public"
-      - name: List files 1
-        run: ls -la blog
-      - name: List files 2
-        run: ls -la blog/public
+            --source "./blog"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: blog/public
 
   # Deployment job
   deploy:
