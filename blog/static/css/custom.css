@@ -1,0 +1,9 @@
+.nav_brand img {
+  max-width: 5rem;
+}
+
+.nav_header {
+  background-color: #0976ad;
+  background-image: url("/images/circuit.svg");
+  background-attachment: fixed;
+}

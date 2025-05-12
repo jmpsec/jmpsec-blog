@@ -1,0 +1,138 @@
+# enable search
+enableSearch = true
+
+# socials
+twitter = "@jmpsec"
+largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
+introDescription = "Practical security insights for building, scaling, and securing complex systems with open source tools."
+introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
+description = "Practical security insights for building, scaling, and securing complex systems with open source tools."
+keywords = ["security", "open-source", "secure-coding", "securiry-tools", "security-engineering", "security-architecture", "security-automation"]
+
+# showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
+
+# Google analytics Id
+ga_analytics = ""
+
+# Google tag manager
+google_tag_manager_id = "GTM-T8V35GFB"
+
+# limit the number of taxonomies links shown on the sidebar of each page by default.
+numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
+
+# Whether to default to storing images and other assets in the `static` directory, or use Hugo page bundles.
+# Switch to `true` if you'd like to group assets with the post itself (as a "leaf bundle").
+# This can be overridden at the page level; what is set below acts as the default if no page variable is set.
+# Details on page bundles: https://gohugo.io/content-management/page-bundles/#leaf-bundles
+usePageBundles = true
+
+# Path variables
+#
+# By default, each of these directories are children of the `static` directory.
+#
+# In some Apache server installs, these directory names could conflict and you
+# may want to change them. See:
+# https://github.com/chipzoller/hugo-clarity/issues/74
+#
+# If you change the names of these directories, be sure to copy the contents of
+# the originals to get the files included with Hugo Clarity.
+#
+# Images:
+imagesDir = "images/" # without a leading forward slash
+# Icons:
+iconsDir = "icons/" # without a leading forward slash
+# Fonts:
+fontsDir = "fonts/" # without a leading forward slash
+
+# Social media sharing image: Will be used on Twitter, Facebook, LinkedIn, etc.
+# when a given page has no other image present.
+fallBackOgImage = "images/thumbnail.png"
+
+# Logo image
+logo = "logos/jmp0.png"
+
+# Custom CSS file
+customCSS = ["css/custom.css"] # uncomment to use a custom CSS file. The file must be in the static directory.
+
+# center logo on navbar
+centerLogo = false # Set to "true" for centering or "false" for left aligned.
+
+# sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
+codeMaxLines = 7
+
+# disable showing line numbers by default. Switch to `true` if you'd rather have them on.
+codeLineNumbers = false
+
+# enable math notation. Switch to `true` to enable mathjax in your site.
+enableMathNotation = false
+
+# directory(s) where your articles are located
+mainSections = [
+  "post",
+] # see config details here https://gohugo.io/functions/where/#mainsections
+
+# Label Non inline images on an article body
+figurePositionShow = false # toggle on or off globally
+# you can toggle this behaviour on or off on per page using the same variable inside your articles frontmatter
+figurePositionLabel = "Figure" # the text before image number e.g Figure 1.0
+
+# Set the collapsed mobile navigation to either appear from the left or the right
+mobileNavigation = "left" # if you prefer right change to 'right'
+
+# some site owners want to decide how they would like their sites to be introduced users. These settings give you as a site owner to decide how the user will view your site for the first time.
+
+# please note that you cannot enforce both modes at the same time. i.e by enforcing one mode, you prioritise it over the other (by setting it to true). enforceDarkMode will be commented out
+
+# please also not that mode toggle UI will remain in place. That way, if a user prefers darkmode, they can have their way.
+
+enforceLightMode = false
+# enforceDarkMode = false
+
+# customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
+footerLogo = "logos/jmp1.png"
+
+# Customize Sidebar Disclaimer Text
+# sidebardisclaimer = true
+# disclaimerText = "The opinions expressed on this site are my own personal opinions and do not represent my employer’s view in any way."
+
+# Text for the languages menu.
+# languageMenuName = "🌐"
+
+# Title separator, default to |.
+# titleSeparator = "|"
+
+# Enable or disable comments globally. Default to true.
+# comments = false
+
+# Activate meta ld+json for blog
+blogDir = "post"
+
+# Maximum number of recent posts. (default: 8)
+# numberOfRecentPosts = 8
+
+# Maximum number of featured posts. (default: 8)
+# numberOfFeaturedPosts = 8
+
+# Pin featured posts in list.
+# pinFeatured = true
+
+# Maximum number of pinned featured posts. (default: 8)
+# numberOfPinnedPosts = 8
+
+# Date format. Checkout https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for details.
+# dateFormat = "2006-01-02" # Default to "Jan 2, 2006".
+# customFonts = false # toggle to true if you want to use custom fonts only.
+
+# The year when this website was created, this value is used in the copyright
+# notice of the footer.
+# since = 2016
+
+# Show related content at the end of an article or in the sidebar, based on the 'series' taxonomy.
+# Both parameters can be overridden in the post's front matter.
+# showRelatedInArticle = false
+# showRelatedInSidebar = false
+
+# website author
+[author]
+name = "JMP Security"
+photo = "logos/jmp1.png"
