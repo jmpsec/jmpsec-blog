@@ -7,7 +7,7 @@
   </p>
 </p>
 
-Static blog for [JMP SEC](https://jmpsec.com/) using [Hugo](https://gohugo.io/).
+Static blog for [JMP SEC](https://blog.jmpsec.com/) using [Hugo](https://gohugo.io/).
 
 ## Serve Locally
 
