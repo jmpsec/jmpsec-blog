@@ -58,6 +58,8 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --source "./blog" \
             --destination "./public"
+      - name: List files
+        run: ls -la .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
