@@ -7,7 +7,7 @@
   </p>
 </p>
 
-Static blog for [JMP SEC](https://blog.jmpsec.com/) using [Hugo](https://gohugo.io/).
+Static blog for [JMP SEC](https://blog.jmpsec.com/) using [Hugo](https://gohugo.io/) and theme [Clarity](https://themes.gohugo.io/themes/hugo-clarity/). The website is hosted on GitHub Pages.
 
 ## Serve Locally
 
