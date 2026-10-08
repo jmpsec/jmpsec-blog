@@ -2,7 +2,7 @@
 title: 'Introducing osctrl-mcp'
 description: '`osctrl`: A fast and efficient osquery management solution.'
 summary: "The `osctrl-mcp` component extends osctrl's capabilities by exposing its read surface over the Model Context Protocol (MCP), enabling AI clients such as Claude Code or ChatGPT to inspect nodes, the osquery schema, and distributed query results through a permission-checked interface — read-only by default, with write tools gated behind an explicit switch." # For the post in lists.
-date: '2026-10-09'
+date: '2026-10-08'
 aliases:
   - introducing-osctrl-mcp
 author: "Javier 🔐"
