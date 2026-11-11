@@ -7,11 +7,11 @@ aliases:
   - introducing-santa-sync-server
 author: "Javier 🔐"
 
-# featureImage: 'header.jpg' # Top image on post.
-# featureImageAlt: ''
+featureImage: 'header.jpg' # Top image on post.
+featureImageAlt: 'A mint-glass rules panel floats above a central module bearing the osctrl logo, connected to macOS laptops, with an amber shield blocking an unapproved app.'
 # featureImageCap: 'This is the featured image.' # Caption (optional).
-# thumbnail: 'thumbnail.jpg' # Image in lists of posts.
-# shareImage: 'share.jpg' # For SEO and social media snippets.
+thumbnail: 'thumbnail.jpg' # Image in lists of posts.
+shareImage: 'share.jpg' # For SEO and social media snippets.
 
 categories:
   - Projects
