@@ -8,7 +8,7 @@ aliases:
 author: "Javier 🔐"
 
 featureImage: 'header.jpg' # Top image on post.
-featureImageAlt: 'A mint-glass rules panel floats above a central module bearing the osctrl logo, connected to macOS laptops, with an amber shield blocking an unapproved app.'
+featureImageAlt: 'A neon "Santa Sync" tower bearing the osctrl logo in a Santa hat rises over a snowy night city, with a sleigh flying past and a sign reading "osctrl Santa Sync Tower".'
 # featureImageCap: 'This is the featured image.' # Caption (optional).
 thumbnail: 'thumbnail.jpg' # Image in lists of posts.
 shareImage: 'share.jpg' # For SEO and social media snippets.
